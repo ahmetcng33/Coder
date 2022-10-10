@@ -1,0 +1,50 @@
+pwd -> hangi director üzerinde işlem yaptığımızı gösterir
+ls -> alttaki dosyaları listeler    '-' işareti ekstra özellik için gerekli
+-l ->ekstra ayrıntılar için kullanılır. (-al yazarsak gizli dosyaları da gösterir)
+cd -> direk bi klasöre girmek için kullan
+cd ..->bir geri döner 
+mkdir ->dosya ekler
+cd, cd marcus/, cd ~  -> ana sayfaya döner
+rmdir -> boş dosyayı siler
+rm -rf -> dolu dosyayı siler
+explorer.exe . --> dosyaların konumuna götürür bizi
+touch -> istediğimiz türden dosya oluşturmamıza yarar
+cp ./gidicek ./alıcak -> copy paste işlemi yapar
+mv ./gidicek ./alıcak -> taşı (move), kes yapışytır
+echo "Hello World" > file1 --> file 1 in içine Hello World yazar
+echo "Hello World" >> file2 --> file1 in içine ikinci Hello worldu yazar 
+echo "Sea Dünya" > file1 --> file1 de eskiden yazılanları siler sea dünya yazar
+cat file1 --> file1 deki yazanları ekranda gösterir sea dünya 
+whoami --> işlem yapan kullanıcıyı gösterir
+hostname --> bilgisayarın ismi
+hostname -i --> bilgisayarın ip si
+
+
+mkdir -p session3/folder1/folder2 -->  iç içe dosya yapar en içteki dosya folder2
+mkdir -pv  --> yaptığı işlemin basamaklarını gösterir
+rm fi* --> 'fi' ile başlayan dosyaları siler
+rm *if --> if ile başlayan dosyaları siler
+mkdir folder{1..50} --> 1 den 50 ye kadar 50 tane folder oluşturur
+head /file/file/file.txt   ilk 10 satırı getirir   head -5 /file..... ilk 5 satırı getirir
+tail /file/file/file.txt   son 10 satırı getirir   tail -5 /file..... son 5 satırı getirir.
+| --> pipe --> komut | komut | komut yapmamızı sağlar   ls | grep 'txt$'
+| --> Birden fazla koşul uygulamak için kullanılır
+^ --> bi şey ile başlayanları getirir  ls | grep "^2"  ! harften önce gelir
+$ --> sonu bi şey ile bitenleri getirir ls | grep "2$" ! harften sonra gelir
+man --> hangi komutun nasıl kullanıldığını gösterir.
+info --> çok detaylı anlatır
+komut --help --> çoğu şeyi gösterir
+sudo apt update -y ; (\) --> backslash işareti seni yeni satıra geçmeni sağlar
+ctrl + l önceki komutlara bakmamızı sağlar.
+chmod u(spark)=rwx,g(grup)=rwx,o(others)=rwx file1 read write exec yetkileri verir alır
+chmod ugo(a da olur all anlamında)=rwx de olur aynı izinler için yan yana yazılabilir.
+ ; sıralı komut çalıştırır -- && and anlamına gelir birinci komut çalışırsa ikinci çalışır
+history --> şimdiye kadarki bütün komutları getirir.  history -c historyi sıfırlar
+
+
+
+ 
+
+
+
+ 

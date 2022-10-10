@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    /* text-align: center; */
+    
+}
+
+nav.yatay-menu a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+
+nav.yatay-menu ul li{
+    list-style: none;
+    display:inline-block;
+    background-color: purple;
+    margin-left: 5em;
+    padding: 1rem 2rem;
+    margin-bottom: 5em;
+    border-radius: 20px;
+    width: 5rem;
+
+}
+
+nav.yatay-menu {
+    list-style: none;
+}
+
+nav.yatay-menu ul :hover{
+    background-color: black;
+}
+
+nav.yatay-menu ul li:hover a {
+    color: blue;
+}
+
+
+/********* ACILIR MENU ***********/
+
+nav.acılır-menu ul{
+    display: none;
+}
+
+nav.acılır-menu{
+    border: 1px solid red;
+    width: 140px;
+}
+
+nav.acılır-menu:hover ul{
+    display: block;
+}
+
+
+ 

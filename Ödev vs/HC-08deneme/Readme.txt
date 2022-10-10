@@ -1,0 +1,1 @@
+5 link oluşturup kutu haline getirdikten sonra mause üstüne geldiğinde hem içindeki yazıyı hem kendi regnini değiştir

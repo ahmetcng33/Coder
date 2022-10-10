@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .hrv{
+            display: inline-block;
+            width: 200px;
+        }
+
+        #asd{
+            resize: none;
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"> ABC TASARIM PROGRAMI KURULUM VE SATIŞ SÖZLEŞMESİ :)</h1>
+    <form action>
+
+     <div>
+         <fieldset>
+             <legend>Sözleşme Onay</legend>
+             <input type="checkbox" name="form" id="form1">
+             <label for="form1">Aşağıdaki Bilgilerin doğruluğunu kabul ediyorum ve sözleşmesiniz onaylıyorum</label>
+             <br>
+             <input type="submit" value="Formu Kaydet">
+             <input type="reset" value="Formu temizle">
+         </fieldset>
+     </div>
+
+     <div>
+         <fieldset>
+             <legend>Kişisel bilgiler</legend>
+             <p>Form Güvenlik ID:asdasdasd</p>
+             <br>
+             <label class="hrv "for="isim">Ad</label>
+             <input type="text" name="ahmet" id="isim">
+             <br>
+             <label class="hrv" for="soyisim">Soyad</label>
+             <input type="text" id="soyisim">
+             <br>
+             <label class="hrv" for="yas">Yaş</label>
+             <input type="text" id="yas">
+             <br>
+             <label class="hrv" for="email">Mail Adresi</label>
+             <input type="text" id="email">
+             <br>
+             <label class="hrv" for="foto">Fotoğraf Ekle</label>
+             <input type="file" name="Dosya Seç" id="foto">
+         </fieldset>
+     </div>
+
+     <div>
+         <fieldset>
+             <legend>Diğer bilgiler</legend>
+             <h3>&emsp;&emsp;&emsp;Buradaki alanlar Mesleki Deneyimleri Kapsar</h3>
+             <br>
+             <label class="hrv" for="date">Sektöre Giriş Tarihi</label>
+             <input type="date" name="" id="date">
+             <br>
+             <label class="hrv" for="deneyim">Sektör deneyimi</label>
+             <label for="">1-5 Yıl</label>
+             <input type="radio" name="yıl" id="">
+             <label for="">6-10 Yıl</label>
+             <input type="radio" name="yıl" id="">
+             <label for="">11-15 Yıl</label>
+             <input type="radio" name="yıl" id="">
+             <label for="">15+</label>
+             <input type="radio" name="yıl" id="">
+             <br>
+             <label class="hrv" for="">Programlama Dilleri</label>
+             <select name="kod" id="kods" multiple>
+                 <option value="c">C#</option>
+                 <option value="c">PHP</option>
+                 <option value="c">Java</option>
+                 <option value="c">Java Script</option>
+            </select>
+         </fieldset>
+     </div>
+
+     <div>
+        <fieldset>
+            <legend>Sözleşme kopyası</legend>
+            <textarea id="asd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, impedit fuga? Provident sint at hic, impedit odio adipisci assumenda sequi optio dolorem cumque exercitationem enim ratione nisi praesentium aliquam ducimus inventore velit. Dolore in, vitae exercitationem, quam unde quidem, nostrum voluptatum totam quae voluptate quia nam rem provident esse error.</textarea>
+        </fieldset>
+     </div>
+
+     <div>
+        <fieldset>
+            <legend>Mail Listesi</legend>
+            <label for="">Mail Listesine Katılmak <strong>İstiyorum</strong></label>
+            <input type="radio" name="sözleşme" value="">
+            <br>
+            <label for="">Mail listesine katılmak <strong>İstemiyorum</strong></label>
+            <input type="radio" name="sözleşme"   value="">
+        </fieldset>
+     </div>
+    </form>
+</body>
+</html>
